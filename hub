@@ -4,10 +4,6 @@ local Window = Library.CreateLib("toasy", "DarkTheme")
 local Tab = Window:NewTab("Scripts")
 local Section = Tab:NewSection("Scripts")
 
-function loadfehub()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
-end
-
 function Owl()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end
@@ -23,7 +19,6 @@ end
 
 
 --button defs
-Section:NewButton("Load Universal FE Script Hub", "...", loadfehub)
 Section:NewButton("Owl Hub", "...", Owl)
 Section:NewButton("Nexus Hub", "...", Nexus)
 Section:NewButton("V.G Hub", "...", VG)
