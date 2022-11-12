@@ -17,7 +17,7 @@ function Nexus()
 end
 
 function gun()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Z3LAX/Gun/main/gun", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Z3LAX/toasty/main/gun", true))()
 end
 
 function VG()
