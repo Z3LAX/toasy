@@ -16,9 +16,6 @@ function Nexus()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
 end
 
-function gun()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Z3LAX/toasty/main/gun", true))()
-end
 
 function VG()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
@@ -29,7 +26,6 @@ end
 Section:NewButton("Load Universal FE Script Hub", "...", loadfehub)
 Section:NewButton("Owl Hub", "...", Owl)
 Section:NewButton("Nexus Hub", "...", Nexus)
-Section:NewButton("Gun Mods", "...", gun)
 Section:NewButton("V.G Hub", "...", VG)
 
 
